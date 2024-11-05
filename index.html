@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY - Enjoy music anytime now</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logo"><img src="letter-m.png" alt="MeloBee logo">MeloBee</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h2>All your favourite songs here.</h2>
+            <div class="songItem">
+                <img class="Image" src="Dandelions_img.jpeg" alt="1.">
+                <span>Dandelions</span>
+                <span class="timestamp">05:30</span>
+                <img class="Image"src="play-button.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="songplay">
+        <input type="range" name="range" id="ProgressBar" min="0" max="100">
+            <ul class="icons">
+                <li id="previous"><img src="previous-button.png" alt="previous-button"></li>
+                <li id="play"><img src="play-button.png" alt="play-button"></li>
+                <li id="forward"><img src="forward-button.png" alt="forward-button"></li>
+            </ul>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>

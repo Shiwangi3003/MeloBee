@@ -1,0 +1,117 @@
+*{
+    padding: 0px 0px;
+    margin: 0;
+}
+
+body{
+    background-color: #D8CFC4;
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100vw;
+    background-color:#44001A;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 4px 5px;
+    width: 100vw;
+    color: aliceblue;
+}
+
+nav li{
+    display: flex;
+    align-items: center;
+    padding:0px 5px;
+        
+}
+
+#logo img{
+    align-items: center;
+    background-color: #D8CFC4;
+    border-radius: 25px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 7px;
+    margin-right: 5px;
+}
+
+#logo{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 0px 10px;
+}
+
+.container{
+    height: 440px;
+    margin: 10px 120px;
+    /* why extra margin coming and not set in centre */
+    justify-content: center;
+    background-color: black;
+    color: white;
+    background-image: url(bg_pic.jpg);
+    background-size: cover;
+    border-radius: 25px;
+}
+
+.songplay{
+    width: 100vw;
+    position: fixed;
+    background-color: #44001A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    bottom: 0;
+    padding-top: 5px;
+    
+}
+
+#ProgressBar{
+    width: 75%;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.icons li{
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    height:3vh;
+    padding: 8px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.songList{
+    margin: 10px 10px;
+}
+
+.songItem{
+    margin: 10px 10px;
+    background-color: aliceblue;
+    color: black;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 33px;
+}
+
+.songItem img{
+    height: 30px;
+    border-radius: 43px;
+    margin-left: 5px;
+}
+
+.Image{
+    padding: 5px;
+    cursor: pointer;
+}
